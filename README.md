@@ -39,7 +39,8 @@ cd discord-scoreboard-bot
 
 2. 仮想環境を作成（推奨）:
 ```bash
-python -m venv .venv
+sudo apt install python3.12-venv # Linux
+python3 -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 # または
 .venv\Scripts\activate  # Windows
